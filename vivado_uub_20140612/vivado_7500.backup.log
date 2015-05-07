@@ -1,0 +1,167 @@
+#-----------------------------------------------------------
+# Vivado v2014.2 (64-bit)
+# SW Build 932637 on Wed Jun 11 13:33:10 MDT 2014
+# IP Build 924643 on Fri May 30 09:20:16 MDT 2014
+# Start of session at: Wed Jan 07 14:21:04 2015
+# Process ID: 13244
+# Log file: C:/Users/User/Desktop/vivado_uub_20140612_20141031a/vivado_uub_20140612/vivado.log
+# Journal file: C:/Users/User/Desktop/vivado_uub_20140612_20141031a/vivado_uub_20140612\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:\Users\User\Desktop\vivado_uub_20140612_20141031a\vivado_uub_20140612\vivado_uub_20140612.xpr}
+INFO: [Project 1-313] Project file moved from 'Z:/cao-projets/SPB16X/lagorio/Auger/Document_travail/xilinx/vivado_uub_20140612' since last save.
+WARNING: [filemgmt 56-2] IP Repository Path: Could not find the directory 'C:/../spb16x/lagorio/auger/document_travail/xilinx/ip_repo/delay_input', nor could it be found using path 'Z:/cao-projets/spb16x/lagorio/auger/document_travail/xilinx/ip_repo/delay_input'.
+WARNING: [filemgmt 56-2] IP Repository Path: Could not find the directory 'C:/../spb16x/lagorio/auger/document_travail/xilinx/ip_repo/interface_uub_1.0', nor could it be found using path 'Z:/cao-projets/spb16x/lagorio/auger/document_travail/xilinx/ip_repo/interface_uub_1.0'.
+WARNING: [filemgmt 56-2] IP Repository Path: Could not find the directory 'C:/../spb16x/lagorio/auger/document_travail/xilinx/ip_repo/interface_uub_1.0', nor could it be found using path 'Z:/cao-projets/spb16x/lagorio/auger/document_travail/xilinx/ip_repo/interface_uub_1.0'.
+WARNING: [filemgmt 56-2] IP Repository Path: Could not find the directory 'C:/../spb16x/lagorio/auger/document_travail/xilinx/ip_repo/interface_uub_1.0', nor could it be found using path 'Z:/cao-projets/spb16x/lagorio/auger/document_travail/xilinx/ip_repo/interface_uub_1.0'.
+WARNING: [filemgmt 56-2] IP Repository Path: Could not find the directory 'C:/../spb16x/lagorio/auger/document_travail/xilinx/ip_repo/interface_uub_1.0', nor could it be found using path 'Z:/cao-projets/spb16x/lagorio/auger/document_travail/xilinx/ip_repo/interface_uub_1.0'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/User/Desktop/vivado_uub_20140612_20141031a/ip_repo/Interface_uub_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/User/Desktop/vivado_uub_20140612_20141031a/ip_repo/in_regional_ck'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/User/Desktop/vivado_uub_20140612_20141031a/ip_repo/delay_input'.
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'c:spb16x/lagorio/auger/document_travail/xilinx/ip_repo/delay_input'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'c:spb16x/lagorio/auger/document_travail/xilinx/ip_repo/interface_uub_1.0'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+WARNING: [IP_Flow 19-2207] Repository 'c:spb16x/lagorio/auger/document_travail/xilinx/ip_repo/interface_uub_1.0' already exists; ignoring attempt to add it again.
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'c:spb16x/lagorio/auger/document_travail/xilinx/ip_repo/interface_uub_1.0'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+WARNING: [IP_Flow 19-2207] Repository 'c:spb16x/lagorio/auger/document_travail/xilinx/ip_repo/interface_uub_1.0' already exists; ignoring attempt to add it again.
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'c:spb16x/lagorio/auger/document_travail/xilinx/ip_repo/interface_uub_1.0'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+WARNING: [IP_Flow 19-2207] Repository 'c:spb16x/lagorio/auger/document_travail/xilinx/ip_repo/interface_uub_1.0' already exists; ignoring attempt to add it again.
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'c:spb16x/lagorio/auger/document_travail/xilinx/ip_repo/interface_uub_1.0'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2014.2/data/ip'.
+open_project: Time (s): cpu = 00:00:28 ; elapsed = 00:00:29 . Memory (MB): peak = 904.270 ; gain = 77.230
+open_run impl_standard
+INFO: [Netlist 29-17] Analyzing 280 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2014.2
+Loading clock regions from C:/Xilinx/Vivado/2014.2/data\parts/xilinx/zynq/zynq/xc7z020/ClockRegion.xml
+Loading clock buffers from C:/Xilinx/Vivado/2014.2/data\parts/xilinx/zynq/zynq/xc7z020/ClockBuffers.xml
+Loading clock placement rules from C:/Xilinx/Vivado/2014.2/data/parts/xilinx/zynq/ClockPlacerRules.xml
+Loading package pin functions from C:/Xilinx/Vivado/2014.2/data\parts/xilinx/zynq/PinFunctions.xml...
+Loading package from C:/Xilinx/Vivado/2014.2/data\parts/xilinx/zynq/zynq/xc7z020/clg484/Package.xml
+Loading io standards from C:/Xilinx/Vivado/2014.2/data\./parts/xilinx/zynq/IOStandards.xml
+Parsing XDC File [C:/Users/User/Desktop/vivado_uub_20140612_20141031a/vivado_uub_20140612/.Xil/Vivado-13244-User-PC/dcp/zynq_design_wrapper_early.xdc]
+Finished Parsing XDC File [C:/Users/User/Desktop/vivado_uub_20140612_20141031a/vivado_uub_20140612/.Xil/Vivado-13244-User-PC/dcp/zynq_design_wrapper_early.xdc]
+Parsing XDC File [C:/Users/User/Desktop/vivado_uub_20140612_20141031a/vivado_uub_20140612/.Xil/Vivado-13244-User-PC/dcp/zynq_design_wrapper.xdc]
+INFO: [Timing 38-35] Done setting XDC timing constraints. [C:/Users/User/Desktop/vivado_uub_20140612_20141031a/vivado_uub_20140612/vivado_uub_20140612.srcs/Commun/new/Timing_contraints.xdc:4]
+set_operating_conditions: Time (s): cpu = 00:00:22 ; elapsed = 00:00:41 . Memory (MB): peak = 1577.965 ; gain = 423.512
+Finished Parsing XDC File [C:/Users/User/Desktop/vivado_uub_20140612_20141031a/vivado_uub_20140612/.Xil/Vivado-13244-User-PC/dcp/zynq_design_wrapper.xdc]
+Reading XDEF placement.
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 1577.965 ; gain = 0.000
+Restoring placement.
+Restored 1718 out of 1718 XDEF sites from archive | CPU: 2.000000 secs | Memory: 0.000000 MB |
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Memdata 28-152] Did  not create MIG processor data. C:/Users/User/Desktop/vivado_uub_20140612_20141031a/vivado_uub_20140612/vivado_uub_20140612.srcs/sources_1/bd/zynq_design/ip/zynq_design_processing_system7_0_0/zynq_design_processing_system7_0_0.xci
+INFO: [Memdata 28-152] Did  not create MIG processor data. C:/Users/User/Desktop/vivado_uub_20140612_20141031a/vivado_uub_20140612/vivado_uub_20140612.srcs/sources_1/bd/zynq_design/ip/zynq_design_axi_bram_ctrl_0_0/zynq_design_axi_bram_ctrl_0_0.xci
+INFO: [Memdata 28-152] Did  not create MIG processor data. C:/Users/User/Desktop/vivado_uub_20140612_20141031a/vivado_uub_20140612/vivado_uub_20140612.srcs/sources_1/bd/zynq_design/ip/zynq_design_axi_bram_ctrl_0_bram_0/zynq_design_axi_bram_ctrl_0_bram_0.xci
+INFO: [Memdata 28-152] Did  not create MIG processor data. C:/Users/User/Desktop/vivado_uub_20140612_20141031a/vivado_uub_20140612/vivado_uub_20140612.srcs/sources_1/bd/zynq_design/ip/zynq_design_rst_processing_system7_0_97M_1/zynq_design_rst_processing_system7_0_97M_1.xci
+INFO: [Memdata 28-152] Did  not create MIG processor data. C:/Users/User/Desktop/vivado_uub_20140612_20141031a/vivado_uub_20140612/vivado_uub_20140612.srcs/sources_1/bd/zynq_design/ip/zynq_design_selectio_wiz_0_0/zynq_design_selectio_wiz_0_0.xci
+INFO: [Memdata 28-152] Did  not create MIG processor data. C:/Users/User/Desktop/vivado_uub_20140612_20141031a/vivado_uub_20140612/vivado_uub_20140612.srcs/sources_1/bd/zynq_design/ip/zynq_design_selectio_wiz_0_1/zynq_design_selectio_wiz_0_1.xci
+INFO: [Memdata 28-152] Did  not create MIG processor data. C:/Users/User/Desktop/vivado_uub_20140612_20141031a/vivado_uub_20140612/vivado_uub_20140612.srcs/sources_1/bd/zynq_design/ip/zynq_design_selectio_wiz_1_0/zynq_design_selectio_wiz_1_0.xci
+INFO: [Memdata 28-152] Did  not create MIG processor data. C:/Users/User/Desktop/vivado_uub_20140612_20141031a/vivado_uub_20140612/vivado_uub_20140612.srcs/sources_1/bd/zynq_design/ip/zynq_design_selectio_wiz_2_0/zynq_design_selectio_wiz_2_0.xci
+INFO: [Memdata 28-152] Did  not create MIG processor data. C:/Users/User/Desktop/vivado_uub_20140612_20141031a/vivado_uub_20140612/vivado_uub_20140612.srcs/sources_1/bd/zynq_design/ip/zynq_design_selectio_wiz_2_1/zynq_design_selectio_wiz_2_1.xci
+INFO: [Memdata 28-152] Did  not create MIG processor data. C:/Users/User/Desktop/vivado_uub_20140612_20141031a/vivado_uub_20140612/vivado_uub_20140612.srcs/sources_1/bd/zynq_design/ip/zynq_design_Interface_uub_0_1/zynq_design_Interface_uub_0_1.xci
+INFO: [Memdata 28-152] Did  not create MIG processor data. C:/Users/User/Desktop/vivado_uub_20140612_20141031a/vivado_uub_20140612/vivado_uub_20140612.srcs/sources_1/bd/zynq_design/ip/zynq_design_axi_mem_intercon_0/zynq_design_axi_mem_intercon_0.xci
+INFO: [Memdata 28-152] Did  not create MIG processor data. C:/Users/User/Desktop/vivado_uub_20140612_20141031a/vivado_uub_20140612/vivado_uub_20140612.srcs/sources_1/bd/zynq_design/ip/zynq_design_xbar_0/zynq_design_xbar_0.xci
+INFO: [Memdata 28-152] Did  not create MIG processor data. C:/Users/User/Desktop/vivado_uub_20140612_20141031a/vivado_uub_20140612/vivado_uub_20140612.srcs/sources_1/bd/zynq_design/ip/zynq_design_util_ds_buf_2_0/zynq_design_util_ds_buf_2_0.xci
+INFO: [Memdata 28-152] Did  not create MIG processor data. C:/Users/User/Desktop/vivado_uub_20140612_20141031a/vivado_uub_20140612/vivado_uub_20140612.srcs/sources_1/bd/zynq_design/ip/zynq_design_In_regional_ck_0_0/zynq_design_In_regional_ck_0_0.xci
+INFO: [Memdata 28-152] Did  not create MIG processor data. C:/Users/User/Desktop/vivado_uub_20140612_20141031a/vivado_uub_20140612/vivado_uub_20140612.srcs/sources_1/bd/zynq_design/ip/zynq_design_delay_input_0_0/zynq_design_delay_input_0_0.xci
+INFO: [Memdata 28-152] Did  not create MIG processor data. C:/Users/User/Desktop/vivado_uub_20140612_20141031a/vivado_uub_20140612/vivado_uub_20140612.srcs/sources_1/bd/zynq_design/ip/zynq_design_axi_uartlite_0_0/zynq_design_axi_uartlite_0_0.xci
+INFO: [Memdata 28-152] Did  not create MIG processor data. C:/Users/User/Desktop/vivado_uub_20140612_20141031a/vivado_uub_20140612/vivado_uub_20140612.srcs/sources_1/bd/zynq_design/ip/zynq_design_auto_pc_0_0/zynq_design_auto_pc_0.xci
+INFO: [Memdata 28-152] Did  not create MIG processor data. C:/Users/User/Desktop/vivado_uub_20140612_20141031a/vivado_uub_20140612/vivado_uub_20140612.srcs/sources_1/bd/zynq_design/ip/zynq_design_auto_pc_1/zynq_design_auto_pc_1.xci
+INFO: [Memdata 28-152] Did  not create MIG processor data. C:/Users/User/Desktop/vivado_uub_20140612_20141031a/vivado_uub_20140612/vivado_uub_20140612.srcs/sources_1/bd/zynq_design/ip/zynq_design_auto_pc_2/zynq_design_auto_pc_2.xci
+INFO: [Memdata 28-152] Did  not create MIG processor data. C:/Users/User/Desktop/vivado_uub_20140612_20141031a/vivado_uub_20140612/vivado_uub_20140612.srcs/sources_1/bd/zynq_design/ip/zynq_design_processing_system7_0_0/zynq_design_processing_system7_0_0.xci
+INFO: [Memdata 28-152] Did  not create MIG processor data. C:/Users/User/Desktop/vivado_uub_20140612_20141031a/vivado_uub_20140612/vivado_uub_20140612.srcs/sources_1/bd/zynq_design/ip/zynq_design_axi_bram_ctrl_0_0/zynq_design_axi_bram_ctrl_0_0.xci
+INFO: [Memdata 28-152] Did  not create MIG processor data. C:/Users/User/Desktop/vivado_uub_20140612_20141031a/vivado_uub_20140612/vivado_uub_20140612.srcs/sources_1/bd/zynq_design/ip/zynq_design_axi_bram_ctrl_0_bram_0/zynq_design_axi_bram_ctrl_0_bram_0.xci
+INFO: [Memdata 28-152] Did  not create MIG processor data. C:/Users/User/Desktop/vivado_uub_20140612_20141031a/vivado_uub_20140612/vivado_uub_20140612.srcs/sources_1/bd/zynq_design/ip/zynq_design_rst_processing_system7_0_97M_1/zynq_design_rst_processing_system7_0_97M_1.xci
+INFO: [Memdata 28-152] Did  not create MIG processor data. C:/Users/User/Desktop/vivado_uub_20140612_20141031a/vivado_uub_20140612/vivado_uub_20140612.srcs/sources_1/bd/zynq_design/ip/zynq_design_selectio_wiz_0_0/zynq_design_selectio_wiz_0_0.xci
+INFO: [Memdata 28-152] Did  not create MIG processor data. C:/Users/User/Desktop/vivado_uub_20140612_20141031a/vivado_uub_20140612/vivado_uub_20140612.srcs/sources_1/bd/zynq_design/ip/zynq_design_selectio_wiz_0_1/zynq_design_selectio_wiz_0_1.xci
+INFO: [Memdata 28-152] Did  not create MIG processor data. C:/Users/User/Desktop/vivado_uub_20140612_20141031a/vivado_uub_20140612/vivado_uub_20140612.srcs/sources_1/bd/zynq_design/ip/zynq_design_selectio_wiz_1_0/zynq_design_selectio_wiz_1_0.xci
+INFO: [Memdata 28-152] Did  not create MIG processor data. C:/Users/User/Desktop/vivado_uub_20140612_20141031a/vivado_uub_20140612/vivado_uub_20140612.srcs/sources_1/bd/zynq_design/ip/zynq_design_selectio_wiz_2_0/zynq_design_selectio_wiz_2_0.xci
+INFO: [Memdata 28-152] Did  not create MIG processor data. C:/Users/User/Desktop/vivado_uub_20140612_20141031a/vivado_uub_20140612/vivado_uub_20140612.srcs/sources_1/bd/zynq_design/ip/zynq_design_selectio_wiz_2_1/zynq_design_selectio_wiz_2_1.xci
+INFO: [Memdata 28-152] Did  not create MIG processor data. C:/Users/User/Desktop/vivado_uub_20140612_20141031a/vivado_uub_20140612/vivado_uub_20140612.srcs/sources_1/bd/zynq_design/ip/zynq_design_Interface_uub_0_1/zynq_design_Interface_uub_0_1.xci
+INFO: [Memdata 28-152] Did  not create MIG processor data. C:/Users/User/Desktop/vivado_uub_20140612_20141031a/vivado_uub_20140612/vivado_uub_20140612.srcs/sources_1/bd/zynq_design/ip/zynq_design_axi_mem_intercon_0/zynq_design_axi_mem_intercon_0.xci
+INFO: [Memdata 28-152] Did  not create MIG processor data. C:/Users/User/Desktop/vivado_uub_20140612_20141031a/vivado_uub_20140612/vivado_uub_20140612.srcs/sources_1/bd/zynq_design/ip/zynq_design_xbar_0/zynq_design_xbar_0.xci
+INFO: [Memdata 28-152] Did  not create MIG processor data. C:/Users/User/Desktop/vivado_uub_20140612_20141031a/vivado_uub_20140612/vivado_uub_20140612.srcs/sources_1/bd/zynq_design/ip/zynq_design_util_ds_buf_2_0/zynq_design_util_ds_buf_2_0.xci
+INFO: [Memdata 28-152] Did  not create MIG processor data. C:/Users/User/Desktop/vivado_uub_20140612_20141031a/vivado_uub_20140612/vivado_uub_20140612.srcs/sources_1/bd/zynq_design/ip/zynq_design_In_regional_ck_0_0/zynq_design_In_regional_ck_0_0.xci
+INFO: [Memdata 28-152] Did  not create MIG processor data. C:/Users/User/Desktop/vivado_uub_20140612_20141031a/vivado_uub_20140612/vivado_uub_20140612.srcs/sources_1/bd/zynq_design/ip/zynq_design_delay_input_0_0/zynq_design_delay_input_0_0.xci
+INFO: [Memdata 28-152] Did  not create MIG processor data. C:/Users/User/Desktop/vivado_uub_20140612_20141031a/vivado_uub_20140612/vivado_uub_20140612.srcs/sources_1/bd/zynq_design/ip/zynq_design_axi_uartlite_0_0/zynq_design_axi_uartlite_0_0.xci
+INFO: [Memdata 28-152] Did  not create MIG processor data. C:/Users/User/Desktop/vivado_uub_20140612_20141031a/vivado_uub_20140612/vivado_uub_20140612.srcs/sources_1/bd/zynq_design/ip/zynq_design_auto_pc_0_0/zynq_design_auto_pc_0.xci
+INFO: [Memdata 28-152] Did  not create MIG processor data. C:/Users/User/Desktop/vivado_uub_20140612_20141031a/vivado_uub_20140612/vivado_uub_20140612.srcs/sources_1/bd/zynq_design/ip/zynq_design_auto_pc_1/zynq_design_auto_pc_1.xci
+INFO: [Memdata 28-152] Did  not create MIG processor data. C:/Users/User/Desktop/vivado_uub_20140612_20141031a/vivado_uub_20140612/vivado_uub_20140612.srcs/sources_1/bd/zynq_design/ip/zynq_design_auto_pc_2/zynq_design_auto_pc_2.xci
+Generating merged BMM file for the design top 'zynq_design_wrapper'...
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+open_run: Time (s): cpu = 00:01:23 ; elapsed = 00:01:37 . Memory (MB): peak = 1742.063 ; gain = 837.793
+open_bd_design {C:/Users/User/Desktop/vivado_uub_20140612_20141031a/vivado_uub_20140612/vivado_uub_20140612.srcs/sources_1/bd/zynq_design/zynq_design.bd}
+Adding component instance block -- xilinx.com:ip:processing_system7:5.4 - processing_system7_0
+Adding component instance block -- xilinx.com:ip:axi_bram_ctrl:4.0 - axi_bram_ctrl_0
+Adding component instance block -- xilinx.com:ip:blk_mem_gen:8.2 - axi_bram_ctrl_0_bram
+Adding component instance block -- xilinx.com:ip:proc_sys_reset:5.0 - rst_processing_system7_0_97M
+Adding component instance block -- xilinx.com:ip:selectio_wiz:5.1 - selectio_wiz_0
+Adding component instance block -- xilinx.com:ip:selectio_wiz:5.1 - selectio_wiz_1
+Adding component instance block -- xilinx.com:ip:selectio_wiz:5.1 - selectio_wiz_2
+Adding component instance block -- xilinx.com:ip:selectio_wiz:5.1 - selectio_wiz_3
+Adding component instance block -- xilinx.com:ip:selectio_wiz:5.1 - selectio_wiz_4
+Adding component instance block -- xilinx.com:ip:util_ds_buf:1.0 - util_ds_buf_3
+Adding component instance block -- xilinx.com:ip:In_regional_ck:1.0 - In_regional_ck_0
+Adding component instance block -- in2p3.fr:user:delay_input:1.0 - delay_input_0
+Adding component instance block -- xilinx.com:ip:axi_uartlite:2.0 - axi_uartlite_0
+Adding component instance block -- Lpsc.in2p3.fr:user:Interface_uub:1.01 - Interface_uub_0
+Adding component instance block -- xilinx.com:ip:axi_crossbar:2.1 - xbar
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Successfully read diagram <zynq_design> from BD file <C:/Users/User/Desktop/vivado_uub_20140612_20141031a/vivado_uub_20140612/vivado_uub_20140612.srcs/sources_1/bd/zynq_design/zynq_design.bd>
+open_bd_design: Time (s): cpu = 00:00:35 ; elapsed = 00:00:48 . Memory (MB): peak = 2075.328 ; gain = 267.066
+reset_run impl_standard
+launch_runs impl_standard
+INFO: [Memdata 28-152] Did  not create MIG processor data. C:/Users/User/Desktop/vivado_uub_20140612_20141031a/vivado_uub_20140612/vivado_uub_20140612.srcs/sources_1/bd/zynq_design/ip/zynq_design_processing_system7_0_0/zynq_design_processing_system7_0_0.xci
+INFO: [Memdata 28-152] Did  not create MIG processor data. C:/Users/User/Desktop/vivado_uub_20140612_20141031a/vivado_uub_20140612/vivado_uub_20140612.srcs/sources_1/bd/zynq_design/ip/zynq_design_axi_bram_ctrl_0_0/zynq_design_axi_bram_ctrl_0_0.xci
+INFO: [Memdata 28-152] Did  not create MIG processor data. C:/Users/User/Desktop/vivado_uub_20140612_20141031a/vivado_uub_20140612/vivado_uub_20140612.srcs/sources_1/bd/zynq_design/ip/zynq_design_axi_bram_ctrl_0_bram_0/zynq_design_axi_bram_ctrl_0_bram_0.xci
+INFO: [Memdata 28-152] Did  not create MIG processor data. C:/Users/User/Desktop/vivado_uub_20140612_20141031a/vivado_uub_20140612/vivado_uub_20140612.srcs/sources_1/bd/zynq_design/ip/zynq_design_rst_processing_system7_0_97M_1/zynq_design_rst_processing_system7_0_97M_1.xci
+INFO: [Memdata 28-152] Did  not create MIG processor data. C:/Users/User/Desktop/vivado_uub_20140612_20141031a/vivado_uub_20140612/vivado_uub_20140612.srcs/sources_1/bd/zynq_design/ip/zynq_design_selectio_wiz_0_0/zynq_design_selectio_wiz_0_0.xci
+INFO: [Memdata 28-152] Did  not create MIG processor data. C:/Users/User/Desktop/vivado_uub_20140612_20141031a/vivado_uub_20140612/vivado_uub_20140612.srcs/sources_1/bd/zynq_design/ip/zynq_design_selectio_wiz_0_1/zynq_design_selectio_wiz_0_1.xci
+INFO: [Memdata 28-152] Did  not create MIG processor data. C:/Users/User/Desktop/vivado_uub_20140612_20141031a/vivado_uub_20140612/vivado_uub_20140612.srcs/sources_1/bd/zynq_design/ip/zynq_design_selectio_wiz_1_0/zynq_design_selectio_wiz_1_0.xci
+INFO: [Memdata 28-152] Did  not create MIG processor data. C:/Users/User/Desktop/vivado_uub_20140612_20141031a/vivado_uub_20140612/vivado_uub_20140612.srcs/sources_1/bd/zynq_design/ip/zynq_design_selectio_wiz_2_0/zynq_design_selectio_wiz_2_0.xci
+INFO: [Memdata 28-152] Did  not create MIG processor data. C:/Users/User/Desktop/vivado_uub_20140612_20141031a/vivado_uub_20140612/vivado_uub_20140612.srcs/sources_1/bd/zynq_design/ip/zynq_design_selectio_wiz_2_1/zynq_design_selectio_wiz_2_1.xci
+INFO: [Memdata 28-152] Did  not create MIG processor data. C:/Users/User/Desktop/vivado_uub_20140612_20141031a/vivado_uub_20140612/vivado_uub_20140612.srcs/sources_1/bd/zynq_design/ip/zynq_design_Interface_uub_0_1/zynq_design_Interface_uub_0_1.xci
+INFO: [Memdata 28-152] Did  not create MIG processor data. C:/Users/User/Desktop/vivado_uub_20140612_20141031a/vivado_uub_20140612/vivado_uub_20140612.srcs/sources_1/bd/zynq_design/ip/zynq_design_axi_mem_intercon_0/zynq_design_axi_mem_intercon_0.xci
+INFO: [Memdata 28-152] Did  not create MIG processor data. C:/Users/User/Desktop/vivado_uub_20140612_20141031a/vivado_uub_20140612/vivado_uub_20140612.srcs/sources_1/bd/zynq_design/ip/zynq_design_xbar_0/zynq_design_xbar_0.xci
+INFO: [Memdata 28-152] Did  not create MIG processor data. C:/Users/User/Desktop/vivado_uub_20140612_20141031a/vivado_uub_20140612/vivado_uub_20140612.srcs/sources_1/bd/zynq_design/ip/zynq_design_util_ds_buf_2_0/zynq_design_util_ds_buf_2_0.xci
+INFO: [Memdata 28-152] Did  not create MIG processor data. C:/Users/User/Desktop/vivado_uub_20140612_20141031a/vivado_uub_20140612/vivado_uub_20140612.srcs/sources_1/bd/zynq_design/ip/zynq_design_In_regional_ck_0_0/zynq_design_In_regional_ck_0_0.xci
+INFO: [Memdata 28-152] Did  not create MIG processor data. C:/Users/User/Desktop/vivado_uub_20140612_20141031a/vivado_uub_20140612/vivado_uub_20140612.srcs/sources_1/bd/zynq_design/ip/zynq_design_delay_input_0_0/zynq_design_delay_input_0_0.xci
+INFO: [Memdata 28-152] Did  not create MIG processor data. C:/Users/User/Desktop/vivado_uub_20140612_20141031a/vivado_uub_20140612/vivado_uub_20140612.srcs/sources_1/bd/zynq_design/ip/zynq_design_axi_uartlite_0_0/zynq_design_axi_uartlite_0_0.xci
+INFO: [Memdata 28-152] Did  not create MIG processor data. C:/Users/User/Desktop/vivado_uub_20140612_20141031a/vivado_uub_20140612/vivado_uub_20140612.srcs/sources_1/bd/zynq_design/ip/zynq_design_auto_pc_0_0/zynq_design_auto_pc_0.xci
+INFO: [Memdata 28-152] Did  not create MIG processor data. C:/Users/User/Desktop/vivado_uub_20140612_20141031a/vivado_uub_20140612/vivado_uub_20140612.srcs/sources_1/bd/zynq_design/ip/zynq_design_auto_pc_1/zynq_design_auto_pc_1.xci
+INFO: [Memdata 28-152] Did  not create MIG processor data. C:/Users/User/Desktop/vivado_uub_20140612_20141031a/vivado_uub_20140612/vivado_uub_20140612.srcs/sources_1/bd/zynq_design/ip/zynq_design_auto_pc_2/zynq_design_auto_pc_2.xci
+INFO: [Memdata 28-152] Did  not create MIG processor data. C:/Users/User/Desktop/vivado_uub_20140612_20141031a/vivado_uub_20140612/vivado_uub_20140612.srcs/sources_1/bd/zynq_design/ip/zynq_design_processing_system7_0_0/zynq_design_processing_system7_0_0.xci
+INFO: [Memdata 28-152] Did  not create MIG processor data. C:/Users/User/Desktop/vivado_uub_20140612_20141031a/vivado_uub_20140612/vivado_uub_20140612.srcs/sources_1/bd/zynq_design/ip/zynq_design_axi_bram_ctrl_0_0/zynq_design_axi_bram_ctrl_0_0.xci
+INFO: [Memdata 28-152] Did  not create MIG processor data. C:/Users/User/Desktop/vivado_uub_20140612_20141031a/vivado_uub_20140612/vivado_uub_20140612.srcs/sources_1/bd/zynq_design/ip/zynq_design_axi_bram_ctrl_0_bram_0/zynq_design_axi_bram_ctrl_0_bram_0.xci
+INFO: [Memdata 28-152] Did  not create MIG processor data. C:/Users/User/Desktop/vivado_uub_20140612_20141031a/vivado_uub_20140612/vivado_uub_20140612.srcs/sources_1/bd/zynq_design/ip/zynq_design_rst_processing_system7_0_97M_1/zynq_design_rst_processing_system7_0_97M_1.xci
+INFO: [Memdata 28-152] Did  not create MIG processor data. C:/Users/User/Desktop/vivado_uub_20140612_20141031a/vivado_uub_20140612/vivado_uub_20140612.srcs/sources_1/bd/zynq_design/ip/zynq_design_selectio_wiz_0_0/zynq_design_selectio_wiz_0_0.xci
+INFO: [Memdata 28-152] Did  not create MIG processor data. C:/Users/User/Desktop/vivado_uub_20140612_20141031a/vivado_uub_20140612/vivado_uub_20140612.srcs/sources_1/bd/zynq_design/ip/zynq_design_selectio_wiz_0_1/zynq_design_selectio_wiz_0_1.xci
+INFO: [Memdata 28-152] Did  not create MIG processor data. C:/Users/User/Desktop/vivado_uub_20140612_20141031a/vivado_uub_20140612/vivado_uub_20140612.srcs/sources_1/bd/zynq_design/ip/zynq_design_selectio_wiz_1_0/zynq_design_selectio_wiz_1_0.xci
+INFO: [Memdata 28-152] Did  not create MIG processor data. C:/Users/User/Desktop/vivado_uub_20140612_20141031a/vivado_uub_20140612/vivado_uub_20140612.srcs/sources_1/bd/zynq_design/ip/zynq_design_selectio_wiz_2_0/zynq_design_selectio_wiz_2_0.xci
+INFO: [Memdata 28-152] Did  not create MIG processor data. C:/Users/User/Desktop/vivado_uub_20140612_20141031a/vivado_uub_20140612/vivado_uub_20140612.srcs/sources_1/bd/zynq_design/ip/zynq_design_selectio_wiz_2_1/zynq_design_selectio_wiz_2_1.xci
+INFO: [Memdata 28-152] Did  not create MIG processor data. C:/Users/User/Desktop/vivado_uub_20140612_20141031a/vivado_uub_20140612/vivado_uub_20140612.srcs/sources_1/bd/zynq_design/ip/zynq_design_Interface_uub_0_1/zynq_design_Interface_uub_0_1.xci
+INFO: [Memdata 28-152] Did  not create MIG processor data. C:/Users/User/Desktop/vivado_uub_20140612_20141031a/vivado_uub_20140612/vivado_uub_20140612.srcs/sources_1/bd/zynq_design/ip/zynq_design_axi_mem_intercon_0/zynq_design_axi_mem_intercon_0.xci
+INFO: [Memdata 28-152] Did  not create MIG processor data. C:/Users/User/Desktop/vivado_uub_20140612_20141031a/vivado_uub_20140612/vivado_uub_20140612.srcs/sources_1/bd/zynq_design/ip/zynq_design_xbar_0/zynq_design_xbar_0.xci
+INFO: [Memdata 28-152] Did  not create MIG processor data. C:/Users/User/Desktop/vivado_uub_20140612_20141031a/vivado_uub_20140612/vivado_uub_20140612.srcs/sources_1/bd/zynq_design/ip/zynq_design_util_ds_buf_2_0/zynq_design_util_ds_buf_2_0.xci
+INFO: [Memdata 28-152] Did  not create MIG processor data. C:/Users/User/Desktop/vivado_uub_20140612_20141031a/vivado_uub_20140612/vivado_uub_20140612.srcs/sources_1/bd/zynq_design/ip/zynq_design_In_regional_ck_0_0/zynq_design_In_regional_ck_0_0.xci
+INFO: [Memdata 28-152] Did  not create MIG processor data. C:/Users/User/Desktop/vivado_uub_20140612_20141031a/vivado_uub_20140612/vivado_uub_20140612.srcs/sources_1/bd/zynq_design/ip/zynq_design_delay_input_0_0/zynq_design_delay_input_0_0.xci
+INFO: [Memdata 28-152] Did  not create MIG processor data. C:/Users/User/Desktop/vivado_uub_20140612_20141031a/vivado_uub_20140612/vivado_uub_20140612.srcs/sources_1/bd/zynq_design/ip/zynq_design_axi_uartlite_0_0/zynq_design_axi_uartlite_0_0.xci
+INFO: [Memdata 28-152] Did  not create MIG processor data. C:/Users/User/Desktop/vivado_uub_20140612_20141031a/vivado_uub_20140612/vivado_uub_20140612.srcs/sources_1/bd/zynq_design/ip/zynq_design_auto_pc_0_0/zynq_design_auto_pc_0.xci
+INFO: [Memdata 28-152] Did  not create MIG processor data. C:/Users/User/Desktop/vivado_uub_20140612_20141031a/vivado_uub_20140612/vivado_uub_20140612.srcs/sources_1/bd/zynq_design/ip/zynq_design_auto_pc_1/zynq_design_auto_pc_1.xci
+INFO: [Memdata 28-152] Did  not create MIG processor data. C:/Users/User/Desktop/vivado_uub_20140612_20141031a/vivado_uub_20140612/vivado_uub_20140612.srcs/sources_1/bd/zynq_design/ip/zynq_design_auto_pc_2/zynq_design_auto_pc_2.xci
+[Wed Jan 14 09:54:24 2015] Launched impl_standard...
+Run output will be captured here: C:/Users/User/Desktop/vivado_uub_20140612_20141031a/vivado_uub_20140612/vivado_uub_20140612.runs/impl_standard/runme.log
+launch_runs: Time (s): cpu = 00:00:01 ; elapsed = 00:00:08 . Memory (MB): peak = 2225.504 ; gain = 0.137

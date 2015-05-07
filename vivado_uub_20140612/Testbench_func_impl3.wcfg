@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="Testbench_func_impl.wdb" id="1">
+         <top_modules>
+            <top_module name="Testbench" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="53" />
+   <wvobject db_ref_id="1" fp_name="/Testbench/DDR_addr" type="array">
+      <obj_property name="ElementShortName">DDR_addr[14:0]</obj_property>
+      <obj_property name="ObjectShortName">DDR_addr[14:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/Testbench/DDR_ba" type="array">
+      <obj_property name="ElementShortName">DDR_ba[2:0]</obj_property>
+      <obj_property name="ObjectShortName">DDR_ba[2:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/Testbench/DDR_cas_n" type="logic">
+      <obj_property name="ElementShortName">DDR_cas_n</obj_property>
+      <obj_property name="ObjectShortName">DDR_cas_n</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/Testbench/DDR_ck_n" type="logic">
+      <obj_property name="ElementShortName">DDR_ck_n</obj_property>
+      <obj_property name="ObjectShortName">DDR_ck_n</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/Testbench/DDR_ck_p" type="logic">
+      <obj_property name="ElementShortName">DDR_ck_p</obj_property>
+      <obj_property name="ObjectShortName">DDR_ck_p</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/Testbench/DDR_cke" type="logic">
+      <obj_property name="ElementShortName">DDR_cke</obj_property>
+      <obj_property name="ObjectShortName">DDR_cke</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/Testbench/DDR_cs_n" type="logic">
+      <obj_property name="ElementShortName">DDR_cs_n</obj_property>
+      <obj_property name="ObjectShortName">DDR_cs_n</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/Testbench/DDR_dm" type="array">
+      <obj_property name="ElementShortName">DDR_dm[3:0]</obj_property>
+      <obj_property name="ObjectShortName">DDR_dm[3:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/Testbench/DDR_dq" type="array">
+      <obj_property name="ElementShortName">DDR_dq[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DDR_dq[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/Testbench/DDR_dqs_n" type="array">
+      <obj_property name="ElementShortName">DDR_dqs_n[3:0]</obj_property>
+      <obj_property name="ObjectShortName">DDR_dqs_n[3:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/Testbench/DDR_dqs_p" type="array">
+      <obj_property name="ElementShortName">DDR_dqs_p[3:0]</obj_property>
+      <obj_property name="ObjectShortName">DDR_dqs_p[3:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/Testbench/DDR_odt" type="logic">
+      <obj_property name="ElementShortName">DDR_odt</obj_property>
+      <obj_property name="ObjectShortName">DDR_odt</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/Testbench/DDR_ras_n" type="logic">
+      <obj_property name="ElementShortName">DDR_ras_n</obj_property>
+      <obj_property name="ObjectShortName">DDR_ras_n</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/Testbench/DDR_reset_n" type="logic">
+      <obj_property name="ElementShortName">DDR_reset_n</obj_property>
+      <obj_property name="ObjectShortName">DDR_reset_n</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/Testbench/DDR_we_n" type="logic">
+      <obj_property name="ElementShortName">DDR_we_n</obj_property>
+      <obj_property name="ObjectShortName">DDR_we_n</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/Testbench/ddr_vrn" type="logic">
+      <obj_property name="ElementShortName">ddr_vrn</obj_property>
+      <obj_property name="ObjectShortName">ddr_vrn</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/Testbench/ddr_vrp" type="logic">
+      <obj_property name="ElementShortName">ddr_vrp</obj_property>
+      <obj_property name="ObjectShortName">ddr_vrp</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/Testbench/mio" type="array">
+      <obj_property name="ElementShortName">mio[53:0]</obj_property>
+      <obj_property name="ObjectShortName">mio[53:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/Testbench/PS_CLK" type="logic">
+      <obj_property name="ElementShortName">PS_CLK</obj_property>
+      <obj_property name="ObjectShortName">PS_CLK</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/Testbench/PS_PORB" type="logic">
+      <obj_property name="ElementShortName">PS_PORB</obj_property>
+      <obj_property name="ObjectShortName">PS_PORB</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/Testbench/PS_SRSTB" type="logic">
+      <obj_property name="ElementShortName">PS_SRSTB</obj_property>
+      <obj_property name="ObjectShortName">PS_SRSTB</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/Testbench/ADC_CK_N" type="logic">
+      <obj_property name="ElementShortName">ADC_CK_N</obj_property>
+      <obj_property name="ObjectShortName">ADC_CK_N</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/Testbench/ADC_CK_P" type="logic">
+      <obj_property name="ElementShortName">ADC_CK_P</obj_property>
+      <obj_property name="ObjectShortName">ADC_CK_P</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/Testbench/FPGA_CK_N" type="logic">
+      <obj_property name="ElementShortName">FPGA_CK_N</obj_property>
+      <obj_property name="ObjectShortName">FPGA_CK_N</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/Testbench/FPGA_CK_P" type="logic">
+      <obj_property name="ElementShortName">FPGA_CK_P</obj_property>
+      <obj_property name="ObjectShortName">FPGA_CK_P</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/Testbench/PPS_IN" type="logic">
+      <obj_property name="ElementShortName">PPS_IN</obj_property>
+      <obj_property name="ObjectShortName">PPS_IN</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/Testbench/PPS_RX" type="logic">
+      <obj_property name="ElementShortName">PPS_RX</obj_property>
+      <obj_property name="ObjectShortName">PPS_RX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/Testbench/PPS_TX" type="logic">
+      <obj_property name="ElementShortName">PPS_TX</obj_property>
+      <obj_property name="ObjectShortName">PPS_TX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/Testbench/TRIG_IN" type="logic">
+      <obj_property name="ElementShortName">TRIG_IN</obj_property>
+      <obj_property name="ObjectShortName">TRIG_IN</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/Testbench/TRIG_OUT" type="logic">
+      <obj_property name="ElementShortName">TRIG_OUT</obj_property>
+      <obj_property name="ObjectShortName">TRIG_OUT</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/Testbench/adc0_n" type="array">
+      <obj_property name="ElementShortName">adc0_n[12:0]</obj_property>
+      <obj_property name="ObjectShortName">adc0_n[12:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/Testbench/adc0_p" type="array">
+      <obj_property name="ElementShortName">adc0_p[12:0]</obj_property>
+      <obj_property name="ObjectShortName">adc0_p[12:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/Testbench/adc1_n" type="array">
+      <obj_property name="ElementShortName">adc1_n[12:0]</obj_property>
+      <obj_property name="ObjectShortName">adc1_n[12:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/Testbench/adc1_p" type="array">
+      <obj_property name="ElementShortName">adc1_p[12:0]</obj_property>
+      <obj_property name="ObjectShortName">adc1_p[12:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/Testbench/adc2_n" type="array">
+      <obj_property name="ElementShortName">adc2_n[12:0]</obj_property>
+      <obj_property name="ObjectShortName">adc2_n[12:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/Testbench/adc2_p" type="array">
+      <obj_property name="ElementShortName">adc2_p[12:0]</obj_property>
+      <obj_property name="ObjectShortName">adc2_p[12:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/Testbench/adc3_n" type="array">
+      <obj_property name="ElementShortName">adc3_n[12:0]</obj_property>
+      <obj_property name="ObjectShortName">adc3_n[12:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/Testbench/adc3_p" type="array">
+      <obj_property name="ElementShortName">adc3_p[12:0]</obj_property>
+      <obj_property name="ObjectShortName">adc3_p[12:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/Testbench/adc4_n" type="array">
+      <obj_property name="ElementShortName">adc4_n[12:0]</obj_property>
+      <obj_property name="ObjectShortName">adc4_n[12:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/Testbench/adc4_p" type="array">
+      <obj_property name="ElementShortName">adc4_p[12:0]</obj_property>
+      <obj_property name="ObjectShortName">adc4_p[12:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/Testbench/ec0_in" type="array">
+      <obj_property name="ElementShortName">ec0_in[7:0]</obj_property>
+      <obj_property name="ObjectShortName">ec0_in[7:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/Testbench/ec0_out" type="array">
+      <obj_property name="ElementShortName">ec0_out[7:0]</obj_property>
+      <obj_property name="ObjectShortName">ec0_out[7:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/Testbench/ec1_in" type="array">
+      <obj_property name="ElementShortName">ec1_in[7:0]</obj_property>
+      <obj_property name="ObjectShortName">ec1_in[7:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/Testbench/ec1_out" type="array">
+      <obj_property name="ElementShortName">ec1_out[7:0]</obj_property>
+      <obj_property name="ObjectShortName">ec1_out[7:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/Testbench/sw" type="array">
+      <obj_property name="ElementShortName">sw[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sw[7:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/Testbench/PER_PS_CLK" type="other">
+      <obj_property name="ElementShortName">PER_PS_CLK</obj_property>
+      <obj_property name="ObjectShortName">PER_PS_CLK</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/Testbench/PER_CK_ADC" type="other">
+      <obj_property name="ElementShortName">PER_CK_ADC</obj_property>
+      <obj_property name="ObjectShortName">PER_CK_ADC</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/Testbench/uut/zynq_design_i/Interface_uub_0/adc0" type="array">
+      <obj_property name="ElementShortName">adc0[25:0]</obj_property>
+      <obj_property name="ObjectShortName">adc0[25:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider260">
+      <obj_property name="label">test_uub</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">#A0A0A4</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/Testbench/uut/zynq_design_i/Interface_uub_0/adc1" type="array">
+      <obj_property name="ElementShortName">adc1[25:0]</obj_property>
+      <obj_property name="ObjectShortName">adc1[25:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/Testbench/uut/zynq_design_i/Interface_uub_0/adc2" type="array">
+      <obj_property name="ElementShortName">adc2[25:0]</obj_property>
+      <obj_property name="ObjectShortName">adc2[25:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/Testbench/uut/zynq_design_i/Interface_uub_0/adc3" type="array">
+      <obj_property name="ElementShortName">adc3[25:0]</obj_property>
+      <obj_property name="ObjectShortName">adc3[25:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/Testbench/uut/zynq_design_i/Interface_uub_0/adc4" type="array">
+      <obj_property name="ElementShortName">adc4[25:0]</obj_property>
+      <obj_property name="ObjectShortName">adc4[25:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+</wave_config>

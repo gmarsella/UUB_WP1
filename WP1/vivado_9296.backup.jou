@@ -1,0 +1,186 @@
+#-----------------------------------------------------------
+# Vivado v2014.2 (64-bit)
+# SW Build 932637 on Wed Jun 11 13:33:10 MDT 2014
+# IP Build 924643 on Fri May 30 09:20:16 MDT 2014
+# Start of session at: Tue Apr 21 19:07:28 2015
+# Process ID: 10108
+# Log file: C:/Xilinx/Vivado/2014.2/progetti/WP1/WP1/vivado.log
+# Journal file: C:/Xilinx/Vivado/2014.2/progetti/WP1/WP1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:\Xilinx\Vivado\2014.2\progetti\WP1\WP1\WP1.xpr}
+open_bd_design {C:/Xilinx/Vivado/2014.2/progetti/WP1/WP1/WP1.srcs/sources_1/bd/WP1_system/WP1_system.bd}
+set_property location {2 802 481} [get_bd_cells selectio_wiz_0]
+set_property location {2 822 276} [get_bd_cells selectio_wiz_1]
+set_property location {2 839 406} [get_bd_cells selectio_wiz_0]
+regenerate_bd_layout -routing
+set_property location {6 1917 365} [get_bd_cells blk_mem_gen_0]
+set_property location {2 922 877} [get_bd_cells processing_system7_0_axi_periph]
+set_property location {1 292 587} [get_bd_cells processing_system7_0]
+set_property location {1 363 1155} [get_bd_cells rst_processing_system7_0_100M]
+set_property location {1 374 929} [get_bd_cells processing_system7_0]
+set_property location {2.5 1036 900} [get_bd_cells processing_system7_0_axi_periph]
+set_property location {2 964 963} [get_bd_cells processing_system7_0_axi_periph]
+set_property location {2.5 1086 1114} [get_bd_cells processing_system7_0_axi_periph]
+set_property location {1 327 608} [get_bd_cells rst_processing_system7_0_100M]
+set_property location {1 338 1056} [get_bd_cells processing_system7_0]
+set_property location {2 846 704} [get_bd_cells processing_system7_0_axi_periph]
+set_property location {1 355 733} [get_bd_cells rst_processing_system7_0_100M]
+set_property location {1 358 1182} [get_bd_cells processing_system7_0]
+set_property location {2 823 1157} [get_bd_cells xlconstant_0]
+regenerate_bd_layout -routing
+set_property location {6 1874 315} [get_bd_cells blk_mem_gen_0]
+set_property location {1 349 1074} [get_bd_cells processing_system7_0]
+set_property location {2 816 1050} [get_bd_cells xlconstant_0]
+set_property location {1 339 734} [get_bd_cells rst_processing_system7_0_100M]
+set_property location {2 829 805} [get_bd_cells processing_system7_0_axi_periph]
+regenerate_bd_layout -routing
+set_property location {1 365 1048} [get_bd_cells processing_system7_0]
+set_property location {1 343 744} [get_bd_cells rst_processing_system7_0_100M]
+set_property location {6 1952 380} [get_bd_cells blk_mem_gen_0]
+set_property location {6 2023 381} [get_bd_cells blk_mem_gen_0]
+set_property location {5 1681 516} [get_bd_cells util_vector_logic_0]
+set_property location {5 1648 633} [get_bd_cells axi_bram_ctrl_0]
+set_property location {5 1650 774} [get_bd_cells axi_gpio_0]
+set_property location {6 1935 708} [get_bd_cells util_ds_buf_0]
+set_property location {6 1942 689} [get_bd_cells util_ds_buf_0]
+regenerate_bd_layout -routing
+set_property location {6 1933 385} [get_bd_cells blk_mem_gen_0]
+set_property location {2093 219} [get_bd_ports TRIGGER_out]
+regenerate_bd_layout -routing
+regenerate_bd_layout -routing
+set_property location {1 360 1130} [get_bd_cells processing_system7_0]
+regenerate_bd_layout -routing
+set_property location {6 1928 455} [get_bd_cells blk_mem_gen_0]
+set_property location {6.5 2039 473} [get_bd_cells blk_mem_gen_0]
+set_property location {5.5 1789 495} [get_bd_cells util_vector_logic_0]
+set_property location {5 1636 848} [get_bd_cells axi_gpio_0]
+set_property location {5.5 1755 590} [get_bd_cells axi_bram_ctrl_0]
+regenerate_bd_layout -routing
+set_property location {1 328 341} [get_bd_cells delay_input_0]
+regenerate_bd_layout -routing
+delete_bd_objs [get_bd_ports sw]
+regenerate_bd_layout -routing
+set_property location {124 517} [get_bd_ports TRIG_IN]
+set_property location {108 287} [get_bd_ports reset]
+set_property location {108 274} [get_bd_ports reset]
+regenerate_bd_layout -routing
+set_property location {3 1076 677} [get_bd_cells util_vector_logic_2]
+set_property location {3 1109 558} [get_bd_cells util_vector_logic_1]
+set_property location {2 885 639} [get_bd_cells util_vector_logic_2]
+set_property location {6 1922 661} [get_bd_cells axi_bram_ctrl_0]
+set_property location {5 1680 824} [get_bd_cells axi_gpio_0]
+set_property location {5 1670 857} [get_bd_cells axi_gpio_0]
+set_property location {5 1665 726} [get_bd_cells axi_gpio_0]
+set_property location {5 1695 863} [get_bd_cells axi_bram_ctrl_0]
+set_property location {5 1715 898} [get_bd_cells axi_bram_ctrl_0]
+set_property location {5 1717 914} [get_bd_cells axi_bram_ctrl_0]
+set_property location {5.5 2033 627} [get_bd_cells util_vector_logic_0]
+set_property location {2811 661} [get_bd_ports adc_clk_N]
+set_property location {2799 730} [get_bd_intf_ports leds_8bits]
+set_property location {77 328} [get_bd_ports TRIG_IN]
+set_property location {114 588} [get_bd_ports reset]
+set_property location {116 488} [get_bd_ports ADC2_N]
+set_property location {116 514} [get_bd_ports ADC1_P]
+set_property location {111 534} [get_bd_ports ADC1_N]
+save_bd_design
+set_property name ADC0_N [get_bd_ports ADC2_N]
+set_property name ADC0_P [get_bd_ports ADC2_P]
+save_bd_design
+set_property location {4.5 1569 459} [get_bd_cells Interface_ADC_0]
+save_bd_design
+regenerate_bd_layout -routing
+set_property location {4 1298 418} [get_bd_cells Interface_ADC_0]
+set_property location {4 1315 362} [get_bd_cells Interface_ADC_0]
+set_property location {8 2254 408} [get_bd_cells blk_mem_gen_0]
+regenerate_bd_layout -routing
+set_property location {4 1341 373} [get_bd_cells Interface_ADC_0]
+regenerate_bd_layout -routing
+set_property location {4 1328 444} [get_bd_cells Interface_ADC_0]
+set_property location {4 1331 404} [get_bd_cells Interface_ADC_0]
+set_property location {8 2286 395} [get_bd_cells blk_mem_gen_0]
+set_property location {6 1782 582} [get_bd_cells util_vector_logic_0]
+set_property location {5 1685 583} [get_bd_cells util_vector_logic_0]
+set_property location {2 817 472} [get_bd_cells selectio_wiz_0]
+set_property location {1 364 380} [get_bd_cells delay_input_0]
+set_property location {114 294} [get_bd_ports TRIG_IN]
+set_property location {2450 519} [get_bd_ports TRIGGER_out]
+set_property location {2445 699} [get_bd_ports adc_clk_P]
+set_property location {2447 717} [get_bd_ports adc_clk_N]
+save_bd_design
+set_property location {2.5 976 910} [get_bd_cells processing_system7_0_axi_periph]
+regenerate_bd_layout -routing
+set_property location {4.5 1465 353} [get_bd_cells Interface_ADC_0]
+set_property location {3 1276 376} [get_bd_cells Interface_ADC_0]
+set_property location {3.5 1334 360} [get_bd_cells Interface_ADC_0]
+set_property location {4 1464 307} [get_bd_cells Interface_ADC_0]
+set_property location {7 2300 338} [get_bd_cells blk_mem_gen_0]
+regenerate_bd_layout -routing
+set_property location {84 266} [get_bd_ports TRIG_IN]
+regenerate_bd_layout -routing
+set_property location {2 871 430} [get_bd_cells selectio_wiz_0]
+set_property location {2 880 448} [get_bd_cells selectio_wiz_0]
+set_property location {1 369 380} [get_bd_cells delay_input_0]
+set_property location {1 370 342} [get_bd_cells delay_input_0]
+set_property location {1 355 424} [get_bd_cells delay_input_0]
+set_property location {1 348 466} [get_bd_cells delay_input_0]
+regenerate_bd_layout -routing
+set_property location {2.5 915 298} [get_bd_cells selectio_wiz_1]
+set_property location {2.5 958 284} [get_bd_cells selectio_wiz_1]
+set_property location {3 1032 461} [get_bd_cells selectio_wiz_0]
+regenerate_bd_layout -routing
+set_property location {122 232} [get_bd_ports TRIG_IN]
+regenerate_bd_layout -routing
+set_property location {110 418} [get_bd_ports ADC0_P]
+set_property location {115 451} [get_bd_ports ADC1_P]
+set_property location {118 472} [get_bd_ports ADC1_N]
+set_property location {3.5 1207 244} [get_bd_cells selectio_wiz_1]
+set_property location {3 1152 235} [get_bd_cells selectio_wiz_1]
+regenerate_bd_layout -routing
+set_property location {6.5 2045 343} [get_bd_cells blk_mem_gen_0]
+set_property location {5 1719 316} [get_bd_cells Interface_ADC_0]
+set_property location {5 1720 281} [get_bd_cells Interface_ADC_0]
+set_property location {7 2246 294} [get_bd_cells blk_mem_gen_0]
+set_property location {7 2262 276} [get_bd_cells blk_mem_gen_0]
+set_property location {2979 408} [get_bd_ports TRIGGER_out]
+set_property location {2 735 -23} [get_bd_cells util_ds_buf_1]
+set_property location {7 2280 354} [get_bd_cells blk_mem_gen_0]
+set_property location {7 2280 359} [get_bd_cells blk_mem_gen_0]
+set_property location {2424 487} [get_bd_ports TRIGGER_out]
+set_property location {1566 213} [get_bd_ports TRIGGER_out]
+set_property location {3115 732} [get_bd_ports TRIGGER_out]
+regenerate_bd_layout -routing
+regenerate_bd_layout -routing
+set_property location {8 2399 628} [get_bd_cells util_vector_logic_0]
+set_property location {6 2053 672} [get_bd_cells util_vector_logic_1]
+set_property location {6 2076 1178} [get_bd_cells util_vector_logic_1]
+set_property location {7 2292 400} [get_bd_cells blk_mem_gen_0]
+set_property location {5 1819 401} [get_bd_cells Interface_ADC_0]
+set_property location {5 1817 342} [get_bd_cells Interface_ADC_0]
+set_property location {7 2290 348} [get_bd_cells blk_mem_gen_0]
+set_property location {7 2305 393} [get_bd_cells blk_mem_gen_0]
+set_property location {7 2304 361} [get_bd_cells blk_mem_gen_0]
+set_property location {7 2287 333} [get_bd_cells blk_mem_gen_0]
+set_property location {7 2288 309} [get_bd_cells blk_mem_gen_0]
+set_property location {2987 470} [get_bd_ports TRIGGER_out]
+set_property location {6 2037 588} [get_bd_cells axi_bram_ctrl_0]
+set_property location {6 2084 502} [get_bd_cells axi_bram_ctrl_0]
+set_property location {6 2077 461} [get_bd_cells axi_bram_ctrl_0]
+set_property location {6 2085 434} [get_bd_cells axi_bram_ctrl_0]
+set_property location {6 2108 416} [get_bd_cells axi_bram_ctrl_0]
+set_property location {6 2105 381} [get_bd_cells axi_bram_ctrl_0]
+set_property location {6 2107 348} [get_bd_cells axi_bram_ctrl_0]
+set_property location {6 2124 378} [get_bd_cells axi_bram_ctrl_0]
+set_property location {5 1806 304} [get_bd_cells Interface_ADC_0]
+set_property location {3051 192} [get_bd_ports TRIGGER_out]
+ipx::edit_ip_in_project -upgrade true -name {ADC_interface_v1_0_project} -directory {C:/Xilinx/Vivado/2014.2/progetti/ip_repo/ADC_interface/ADC_interface_v1_0_project} {c:/Xilinx/Vivado/2014.2/progetti/ip_repo/ADC_interface/component.xml}
+update_compile_order -fileset sim_1
+close_project
+reset_run synth_1
+save_bd_design
+launch_runs impl_1
+wait_on_run impl_1
+report_ip_status -name ip_status 
+open_run impl_1
+write_hwdef  -file C:/Xilinx/Vivado/2014.2/progetti/WP1/WP1/WP1_system.hdf
+launch_sdk -workspace C:/Xilinx/Vivado/2014.2/progetti/WP1/WP1 -hwspec C:/Xilinx/Vivado/2014.2/progetti/WP1/WP1/WP1_system.hdf

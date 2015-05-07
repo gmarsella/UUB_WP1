@@ -1,0 +1,180 @@
+#-----------------------------------------------------------
+# Vivado v2014.2 (64-bit)
+# SW Build 932637 on Wed Jun 11 13:33:10 MDT 2014
+# IP Build 924643 on Fri May 30 09:20:16 MDT 2014
+# Start of session at: Thu Apr 09 17:34:49 2015
+# Process ID: 12000
+# Log file: C:/Xilinx/Vivado/2014.2/progetti/WP1/WP1/vivado.log
+# Journal file: C:/Xilinx/Vivado/2014.2/progetti/WP1/WP1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:\Xilinx\Vivado\2014.2\progetti\WP1\WP1\WP1.xpr}
+open_bd_design {C:/Xilinx/Vivado/2014.2/progetti/WP1/WP1/WP1.srcs/sources_1/bd/WP1_system/WP1_system.bd}
+ipx::edit_ip_in_project -upgrade true -name {Interface_ADC_v1_0_project} -directory {C:/Xilinx/Vivado/2014.2/progetti/ip_repo/interface_ADC/interface_ADC.srcs/sources_1/imports/interface_uub_1.0/Interface_ADC_v1_0_project} {c:/Xilinx/Vivado/2014.2/progetti/ip_repo/interface_ADC/interface_ADC.srcs/sources_1/imports/interface_uub_1.0/component.xml}
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+current_project WP1
+current_project Interface_ADC_v1_0_project
+add_files -norecurse -copy_to C:/Xilinx/Vivado/2014.2/progetti/ip_repo/interface_ADC/interface_ADC.srcs/sources_1/imports/interface_uub_1.0/src C:/Xilinx/Vivado/2014.2/progetti/WP1/WP1/WP1.srcs/sources_1/ipshared/www.le.infn.it/Interface_ADC_v1_0/15b0ce27/src/test_uub.vhd
+update_files -from_files C:/Xilinx/Vivado/2014.2/progetti/WP1/WP1/WP1.srcs/sources_1/ipshared/www.le.infn.it/Interface_ADC_v1_0/15b0ce27/src/test_uub.vhd -to_files c:/xilinx/vivado/2014.2/progetti/ip_repo/interface_adc/interface_adc.srcs/sources_1/imports/interface_uub_1.0/src/Interface_uub_v1_0_S00_AXI.vhd -filesets [get_filesets *]
+update_compile_order -fileset sources_1
+remove_files c:/xilinx/vivado/2014.2/progetti/ip_repo/interface_adc/interface_adc.srcs/sources_1/imports/interface_uub_1.0/src/test_uub.vhd
+ipx::merge_project_changes files [ipx::current_core]
+launch_runs synth_1
+wait_on_run synth_1
+close_project
+ipx::edit_ip_in_project -upgrade true -name {Interface_ADC_v1_0_project} -directory {C:/Xilinx/Vivado/2014.2/progetti/ip_repo/interface_ADC/interface_ADC.srcs/sources_1/imports/interface_uub_1.0/Interface_ADC_v1_0_project} {c:/Xilinx/Vivado/2014.2/progetti/ip_repo/interface_ADC/interface_ADC.srcs/sources_1/imports/interface_uub_1.0/component.xml}
+update_compile_order -fileset sim_1
+add_files -norecurse -copy_to C:/Xilinx/Vivado/2014.2/progetti/ip_repo/interface_ADC/interface_ADC.srcs/sources_1/imports/interface_uub_1.0/src C:/Xilinx/Vivado/2014.2/progetti/ip_repo/interface_ADC/interface_ADC.srcs/sources_1/imports/interface_uub_1.0/src/test_uub.vhd
+add_files -norecurse -scan_for_includes -copy_to C:/Xilinx/Vivado/2014.2/progetti/ip_repo/interface_ADC/interface_ADC.srcs/sources_1/imports/interface_uub_1.0/src C:/Xilinx/Vivado/2014.2/progetti/ip_repo/interface_ADC/interface_ADC.srcs/sources_1/imports/interface_uub_1.0/src/test_uub.vhd
+update_files -from_files C:/Xilinx/Vivado/2014.2/progetti/ip_repo/interface_ADC/interface_ADC.srcs/sources_1/imports/interface_uub_1.0/src/Interface_uub_v1_0_S00_AXI.vhd -to_files c:/xilinx/vivado/2014.2/progetti/ip_repo/interface_adc/interface_adc.srcs/sources_1/imports/interface_uub_1.0/hdl/Interface_uub_v1_0.vhd -filesets [get_filesets *]
+update_compile_order -fileset sim_1
+update_compile_order -fileset sources_1
+add_files -copy_to C:/Xilinx/Vivado/2014.2/progetti/ip_repo/interface_ADC/interface_ADC.srcs/sources_1/imports/interface_uub_1.0/src C:/Xilinx/Vivado/2014.2/progetti/ip_repo/interface_ADC/interface_ADC.srcs/sources_1/imports/interface_uub_1.0/src/Interface_uub_v1_0_S00_AXI.vhd
+update_files -from_files C:/Xilinx/Vivado/2014.2/progetti/ip_repo/interface_ADC/interface_ADC.srcs/sources_1/imports/interface_uub_1.0/src/test_uub.vhd -to_files C:/Xilinx/Vivado/2014.2/progetti/ip_repo/interface_ADC/interface_ADC.srcs/sources_1/imports/interface_uub_1.0/src/Interface_uub_v1_0_S00_AXI.vhd -filesets [get_filesets *]
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+update_files -from_files C:/Xilinx/Vivado/2014.2/progetti/ip_repo/interface_ADC/interface_ADC.srcs/sources_1/imports/interface_uub_1.0/src/Interface_uub_v1_0_S00_AXI.vhd -to_files C:/Xilinx/Vivado/2014.2/progetti/ip_repo/interface_ADC/interface_ADC.srcs/sources_1/imports/interface_uub_1.0/src/test_uub.vhd -filesets [get_filesets *]
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+set_property source_mgmt_mode None [current_project]
+current_project WP1
+current_project Interface_ADC_v1_0_project
+set_property source_mgmt_mode All [current_project]
+add_files -norecurse -scan_for_includes -copy_to C:/Xilinx/Vivado/2014.2/progetti/ip_repo/interface_ADC/interface_ADC.srcs/sources_1/imports/interface_uub_1.0/src C:/Xilinx/Vivado/2014.2/progetti/ip_repo/interface_ADC/interface_ADC.srcs/sources_1/imports/interface_uub_1.0/src/test_uub.vhd
+add_files -norecurse -scan_for_includes -copy_to C:/Xilinx/Vivado/2014.2/progetti/ip_repo/interface_ADC/interface_ADC.srcs/sources_1/imports/interface_uub_1.0/src C:/Users/User/Desktop/test_uub.vhd
+current_project WP1
+open_bd_design {C:/Xilinx/Vivado/2014.2/progetti/WP1/WP1/WP1.srcs/sources_1/bd/WP1_system/WP1_system.bd}
+startgroup
+create_bd_cell -type ip -vlnv le.infn.it:user:Interface_ADC:1.0 Interface_ADC_1
+endgroup
+set_property location {3.5 1642 331} [get_bd_cells Interface_ADC_1]
+delete_bd_objs [get_bd_cells Interface_ADC_1]
+startgroup
+create_bd_cell -type ip -vlnv le.infn.it:user:Interface_ADC:1.0 Interface_ADC_1
+endgroup
+delete_bd_objs [get_bd_cells Interface_ADC_1]
+startgroup
+create_bd_cell -type ip -vlnv www.le.infn.it:user:Interface_ADC:1.0 Interface_ADC_1
+endgroup
+ipx::edit_ip_in_project -upgrade true -name {Interface_ADC_v1_0_project} -directory {C:/Xilinx/Vivado/2014.2/progetti/ip_repo/interface_ADC/interface_ADC.srcs/sources_1/imports/interface_uub_1.0/Interface_ADC_v1_0_project} {c:/Xilinx/Vivado/2014.2/progetti/ip_repo/interface_ADC/interface_ADC.srcs/sources_1/imports/interface_uub_1.0/component.xml}
+current_project Interface_ADC_v1_0_project
+close_project
+ipx::edit_ip_in_project -upgrade true -name {Interface_ADC_v1_0_project} -directory {C:/Xilinx/Vivado/2014.2/progetti/ip_repo/interface_ADC/interface_ADC.srcs/sources_1/imports/interface_uub_1.0/Interface_ADC_v1_0_project} {c:/Xilinx/Vivado/2014.2/progetti/ip_repo/interface_ADC/interface_ADC.srcs/sources_1/imports/interface_uub_1.0/component.xml}
+update_compile_order -fileset sim_1
+current_project WP1
+delete_bd_objs [get_bd_cells Interface_ADC_1]
+current_project Interface_ADC_v1_0_project
+close_project
+set_property ip_repo_paths  c:/Xilinx/Vivado/2014.2/progetti/ip_repo [current_fileset]
+update_ip_catalog
+update_ip_catalog -delete_ip le.infn.it:user:Interface_ADC:1.0 -repo_path c:/Xilinx/Vivado/2014.2/progetti/ip_repo
+update_ip_catalog -rebuild
+open_bd_design {C:/Xilinx/Vivado/2014.2/progetti/WP1/WP1/WP1.srcs/sources_1/bd/WP1_system/WP1_system.bd}
+ipx::edit_ip_in_project -upgrade true -name {Interface_ADC_v1_0_project} -directory {C:/Xilinx/Vivado/2014.2/progetti/ip_repo/interface_ADC/interface_ADC.srcs/sources_1/imports/interface_uub_1.0/Interface_ADC_v1_0_project} {c:/Xilinx/Vivado/2014.2/progetti/ip_repo/interface_ADC/interface_ADC.srcs/sources_1/imports/interface_uub_1.0/component.xml}
+update_compile_order -fileset sim_1
+startgroup
+current_project WP1
+create_bd_cell -type ip -vlnv www.le.infn.it:user:Interface_ADC:1.0 Interface_ADC_1
+endgroup
+set_property location {5 1900 348} [get_bd_cells Interface_ADC_1]
+delete_bd_objs [get_bd_cells Interface_ADC_1]
+current_project Interface_ADC_v1_0_project
+update_ip_catalog -add_ip C:/Users/User/Desktop/Interface_uub_1.0/component.xml -repo_path c:/Xilinx/Vivado/2014.2/progetti/ip_repo
+current_project WP1
+update_ip_catalog -rebuild -repo_path c:/Xilinx/Vivado/2014.2/progetti/ip_repo
+startgroup
+create_bd_cell -type ip -vlnv Lpsc.in2p3.fr:user:Interface_uub:1.01 Interface_uub_0
+endgroup
+ipx::edit_ip_in_project -upgrade true -name {Interface_uub_v1_01_project} -directory {C:/Xilinx/Vivado/2014.2/progetti/ip_repo/Interface_uub_1/Interface_uub_v1_01_project} {c:/Xilinx/Vivado/2014.2/progetti/ip_repo/Interface_uub_1/component.xml}
+update_compile_order -fileset sim_1
+current_project Interface_ADC_v1_0_project
+close_project
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+set_property name {Interface_ADC_UUB} [ipx::current_core]
+set_property version {1.0} [ipx::current_core]
+set_property display_name {Interface_ADC_UUB} [ipx::current_core]
+ipx::merge_project_changes hdl_parameters [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+current_project WP1
+set_property vendor {le.infn.it} [ipx::current_core]
+current_project Interface_uub_v1_01_project
+launch_runs synth_1
+wait_on_run synth_1
+ipx::check_integrity -quiet [ipx::current_core]
+ipx::archive_core {C:\Xilinx\Vivado\2014.2\progetti\ip_repo\le.infn.it_user_Interface_ADC_UUB_1.0.zip} [ipx::current_core]
+ipx::update_ip_instances -delete_project true
+set_property location {5 1846 367} [get_bd_cells Interface_uub_0]
+ipx::edit_ip_in_project -upgrade true -name {Interface_ADC_v1_0_project} -directory {C:/Xilinx/Vivado/2014.2/progetti/ip_repo/interface_ADC/interface_ADC.srcs/sources_1/imports/interface_uub_1.0/Interface_ADC_v1_0_project} {c:/Xilinx/Vivado/2014.2/progetti/ip_repo/interface_ADC/interface_ADC.srcs/sources_1/imports/interface_uub_1.0/component.xml}
+update_compile_order -fileset sim_1
+current_project WP1
+delete_bd_objs [get_bd_nets Interface_ADC_0_myaddr]
+connect_bd_net [get_bd_pins blk_mem_gen_0/addra] [get_bd_pins Interface_uub_0/myaddr]
+delete_bd_objs [get_bd_nets util_vector_logic_0_Res]
+connect_bd_net [get_bd_pins blk_mem_gen_0/clka] [get_bd_pins Interface_uub_0/mydata]
+delete_bd_objs [get_bd_nets TRIG_IN_1]
+connect_bd_net [get_bd_ports TRIG_IN] [get_bd_pins Interface_uub_0/TRIG_IN]
+connect_bd_net -net [get_bd_nets sw_1] [get_bd_ports sw] [get_bd_pins Interface_uub_0/wea]
+connect_bd_net -net [get_bd_nets selectio_wiz_0_data_in_to_device] [get_bd_pins Interface_uub_0/adc1] [get_bd_pins selectio_wiz_0/data_in_to_device]
+connect_bd_net -net [get_bd_nets selectio_wiz_1_data_in_to_device] [get_bd_pins Interface_uub_0/adc0] [get_bd_pins selectio_wiz_1/data_in_to_device]
+connect_bd_net -net [get_bd_nets util_ds_buf_1_IBUF_OUT] [get_bd_pins Interface_uub_0/ADC_CK] [get_bd_pins util_ds_buf_1/IBUF_OUT]
+connect_bd_net -net [get_bd_nets processing_system7_0_FCLK_CLK0] [get_bd_pins Interface_uub_0/FPGA_CK] [get_bd_pins processing_system7_0/FCLK_CLK0]
+delete_bd_objs [get_bd_nets Interface_uub_0_mydata]
+connect_bd_net -net [get_bd_nets util_ds_buf_1_IBUF_OUT] [get_bd_pins blk_mem_gen_0/clka] [get_bd_pins util_ds_buf_1/IBUF_OUT]
+disconnect_bd_net /util_ds_buf_1_IBUF_OUT [get_bd_pins blk_mem_gen_0/clka]
+connect_bd_net [get_bd_pins blk_mem_gen_0/clka] [get_bd_pins util_vector_logic_0/Res]
+delete_bd_objs [get_bd_nets Interface_ADC_0_mydata]
+connect_bd_net [get_bd_pins blk_mem_gen_0/dina] [get_bd_pins Interface_uub_0/mydata]
+delete_bd_objs [get_bd_intf_nets processing_system7_0_axi_periph_M01_AXI] [get_bd_cells Interface_ADC_0]
+apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config {Master "/processing_system7_0/M_AXI_GP0" Clk "Auto" }  [get_bd_intf_pins Interface_uub_0/S00_AXI]
+current_project Interface_ADC_v1_0_project
+close_project
+ipx::edit_ip_in_project -upgrade true -name {Interface_ADC_v1_0_project} -directory {C:/Xilinx/Vivado/2014.2/progetti/ip_repo/interface_ADC/interface_ADC.srcs/sources_1/imports/interface_uub_1.0/Interface_ADC_v1_0_project} {c:/Xilinx/Vivado/2014.2/progetti/ip_repo/interface_ADC/interface_ADC.srcs/sources_1/imports/interface_uub_1.0/component.xml}
+update_compile_order -fileset sim_1
+startgroup
+current_project WP1
+create_bd_cell -type ip -vlnv le.infn.it:user:Interface_ADC_UUB:1.0 Interface_ADC_UUB_0
+endgroup
+current_project Interface_ADC_v1_0_project
+close_project
+ipx::edit_ip_in_project -upgrade true -name {Interface_ADC_UUB_v1_0_project} -directory {C:/Xilinx/Vivado/2014.2/progetti/ip_repo/Interface_uub_1/Interface_ADC_UUB_v1_0_project} {c:/Xilinx/Vivado/2014.2/progetti/ip_repo/Interface_uub_1/component.xml}
+update_compile_order -fileset sim_1
+set_property name {Interface_ADC} [ipx::current_core]
+set_property description {IP tostore ADC} [ipx::current_core]
+set_property display_name {Interface_ADC} [ipx::current_core]
+current_project WP1
+set_property location {5 2150 132} [get_bd_cells Interface_ADC_UUB_0]
+connect_bd_net -net [get_bd_nets util_ds_buf_1_IBUF_OUT] [get_bd_pins Interface_ADC_UUB_0/ADC_CK] [get_bd_pins util_ds_buf_1/IBUF_OUT]
+connect_bd_net -net [get_bd_nets processing_system7_0_FCLK_CLK0] [get_bd_pins Interface_ADC_UUB_0/FPGA_CK] [get_bd_pins processing_system7_0/FCLK_CLK0]
+connect_bd_net -net [get_bd_nets selectio_wiz_1_data_in_to_device] [get_bd_pins Interface_ADC_UUB_0/adc0] [get_bd_pins selectio_wiz_1/data_in_to_device]
+connect_bd_net -net [get_bd_nets selectio_wiz_0_data_in_to_device] [get_bd_pins Interface_ADC_UUB_0/adc1] [get_bd_pins selectio_wiz_0/data_in_to_device]
+connect_bd_net -net [get_bd_nets sw_1] [get_bd_ports sw] [get_bd_pins Interface_ADC_UUB_0/wea]
+connect_bd_net -net [get_bd_nets TRIG_IN_1] [get_bd_ports TRIG_IN] [get_bd_pins Interface_ADC_UUB_0/TRIG_IN]
+delete_bd_objs [get_bd_nets Interface_uub_0_myaddr]
+delete_bd_objs [get_bd_nets Interface_uub_0_mydata]
+connect_bd_net [get_bd_pins blk_mem_gen_0/addra] [get_bd_pins Interface_uub_0/myaddr]
+connect_bd_net [get_bd_pins blk_mem_gen_0/dina] [get_bd_pins Interface_uub_0/mydata]
+undo
+undo
+connect_bd_net [get_bd_pins blk_mem_gen_0/addra] [get_bd_pins Interface_ADC_UUB_0/myaddr]
+connect_bd_net [get_bd_pins blk_mem_gen_0/dina] [get_bd_pins Interface_ADC_UUB_0/mydata]
+delete_bd_objs [get_bd_intf_nets processing_system7_0_axi_periph_M01_AXI] [get_bd_cells Interface_uub_0]
+ipx::check_integrity -quiet [ipx::current_core]
+ipx::archive_core {C:\Xilinx\Vivado\2014.2\progetti\ip_repo\le.infn.it_user_Interface_ADC_1.0.zip} [ipx::current_core]
+current_project Interface_ADC_UUB_v1_0_project
+ipx::update_ip_instances -delete_project true
+report_ip_status -name ip_status 
+regenerate_bd_layout -routing
+update_ip_catalog -delete_ip le.infn.it:user:Interface_ADC:1.0 -repo_path c:/Xilinx/Vivado/2014.2/progetti/ip_repo
